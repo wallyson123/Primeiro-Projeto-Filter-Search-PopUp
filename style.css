@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html, body{
     box-sizing: border-box;
     background-color: #fff;
@@ -11,6 +10,9 @@ html, body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.worklink{
+    color:#444;
+}
 .main-container{
     width: 100%;
 }
@@ -373,7 +375,7 @@ html, body{
     width: 100%;
     font-family: "Dosis";
     text-align: center;
-    font-weight: 500;
+    font-weight: 500px;
     margin-top: 1rem;
     padding: 1rem 0rem;
     font-size: 15px;
@@ -384,7 +386,7 @@ html, body{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: blueviolet;
+    background-color: rgb(243, 147, 103);
     color: white;
     cursor: pointer;
   }
@@ -395,12 +397,13 @@ html, body{
   }
   
   .modal-container {
-    width: 50vw;
+    width: 60vw;
     position: fixed;
     top: 30px;
     display: none;
     z-index: 9998;
     justify-content: center;
+    align-items: center;
   }
   
   .modal {
@@ -443,14 +446,16 @@ html, body{
   }
   
   .btns button {
+    display: flex;
     font-size: medium;
-    padding: 10px;
+    padding: 12px;
+    padding-left: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
+    text-transform: uppercase;
   }
-  
   
   .btnClose {
     background-color: brown!important;
