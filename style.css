@@ -9,7 +9,6 @@ html, body{
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .worklink{
     color:#444;
 }
@@ -171,7 +170,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
+    padding: 40px 0px;
 }
 
 .main-container .section .search-box .search-div .search{
@@ -180,11 +179,12 @@ html, body{
     width: 300px;
     border: none;
     outline: none;
-    padding: 8px 20px;
+    padding: 20px 20px;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 20px;
     font-family: 'Dosis';
+    text-transform: uppercase;
     
 }
 
@@ -389,6 +389,24 @@ html, body{
     background-color: rgb(243, 147, 103);
     color: white;
     cursor: pointer;
+  }
+
+  .cores{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nomecor{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
   }
   
   hr {
