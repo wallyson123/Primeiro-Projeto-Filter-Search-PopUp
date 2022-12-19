@@ -18,21 +18,6 @@ const pagination = document.querySelector(".pagination");
 // Smooth scale effect transition
 const items = itemsContainer.querySelectorAll(".product-container");
 
-// Array.from(items).forEach(function (item) {
-//   // console.log(item);
-//   item.addEventListener("mouseenter", scaleOut);
-//   item.addEventListener("mouseleave", scaleIn);
-
-//   /*
-//     // Code snippet is not part of project
-//     item.addEventListener('click', changeColor)
-    
-//     function changeColor(e) {
-//         e.target.style.backgroundColor = 'red';
-//         console.log(e.target.classList.contains('product-container'))
-//     }
-//     */
-// });
 
 // Scale out event
 function scaleOut(e) {

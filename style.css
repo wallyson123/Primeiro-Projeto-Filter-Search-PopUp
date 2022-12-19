@@ -26,8 +26,15 @@ html, body{
     align-items: center;
     padding: 10px 10px;
 }
+.header img{
+ width: 40px;
+ border: 1px solid black;
+}
 
-.main-container .header .title .text{
+.section-container img{
+    width: 40px;
+}
+.main-container .header .text{
     color: #ffcc29;
     font-size: 20px;
     font-weight: bold;
@@ -237,7 +244,7 @@ html, body{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-bottom: 20px;
     transition: transform .2s;
 }
@@ -266,12 +273,14 @@ html, body{
 
 .main-container .section .section-holder .section-container .product-container .product-name{
     font-family: 'Dosis';
+    color: #000;
     font-weight: 500;
     font-size: 22px;
     padding-bottom: 10px;
     margin: 0px 10px;
     margin-bottom: 10px;
     border-bottom: 1.5px solid #ddd;
+    align-self: center;
 }
 
 .main-container .section .section-holder .section-container .product-container .product-action-price{
@@ -413,22 +422,27 @@ html, body{
     border: 0px;
     border-top: 1px solid lightgray;
   }
+
   
   .modal-container {
     width: 60vw;
     position: fixed;
-    top: 30px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
     display: none;
     z-index: 9998;
     justify-content: center;
     align-items: center;
   }
-  
+
+
   .modal {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    background-color: white;
+    padding: 20px;
+    background-color: rgb(231, 223, 223);
     border-radius: 10px;
     width: 50%;
     z-index: 9999;
@@ -478,10 +492,11 @@ html, body{
   .btnClose {
     background-color: brown!important;
    }
-  
+
+
    @media (max-width: 500px) {
-    .modal {
-      padding: 10px;
+    .modal{
+      padding: 20px;
       width: 80%;
     }   
   
